@@ -1,3 +1,9 @@
+# Module files
+EmployeeDB schema.txt
+EmployeeDB.png
+queries.sql
+schema.sql
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
