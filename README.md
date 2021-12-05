@@ -25,7 +25,7 @@ mentorship_count sum query:
 
 - Throughout the entire company of Pewlett Hackard, only 1,549 current employees are eligible to participate in a mentorship program. 
 
-- There are zero employees under the "Manager" tile eligible to participate in a mentorship program. 
+- There are zero employees under the "Manager" title eligible to participate in a mentorship program. 
 
 ## Summary
 
