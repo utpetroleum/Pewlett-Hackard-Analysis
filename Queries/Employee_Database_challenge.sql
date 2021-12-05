@@ -30,6 +30,8 @@ ORDER BY count DESC;
 
 SELECT * FROM retiring_titles;
 
+SELECT SUM(count) FROM retiring_titles;
+
 -- Deliverable 2: The Employees Eligible for the Mentorship Program
 
 SELECT DISTINCT ON (e.emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date, de.from_date, de.to_date, t.title
@@ -46,8 +48,11 @@ ORDER BY e.emp_no;
 SELECT * FROM mentorship_eligibilty;
 
 SELECT COUNT(title) AS count, title
+INTO mentorship_count
 FROM mentorship_eligibilty
 GROUP BY title
 ORDER BY count DESC;
 
+SELECT * FROM mentorship_count;
 
+SELECT SUM(count) FROM mentorship_count;
